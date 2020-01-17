@@ -13,5 +13,6 @@ int main()
 
     go_south_east(&latitude,&longitude);
 
-    printf("coordinates :  [%d , %d]",latitude,longitude);
+    printf("coordinates :  [%d , %d]\n",latitude,longitude);
+
 }
