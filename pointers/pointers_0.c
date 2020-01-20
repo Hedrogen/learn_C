@@ -12,7 +12,11 @@ int main()
     int longitude = -64;
 
     go_south_east(&latitude,&longitude);
-
     printf("coordinates :  [%d , %d]\n",latitude,longitude);
 
+}
+void name(int *a,int *b)
+{
+    *a=*a-*b;
+    *b=*b-*a;
 }
