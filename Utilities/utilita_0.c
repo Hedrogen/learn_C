@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     float latitude;
     float longitude;
     char info[80];
@@ -15,7 +16,7 @@ int main(){
         if ((latitude <-90.0)||(latitude>90.0))
         {
             //printf("Not true latitude: %lf\n",latitude);
-            fprintf(stderr,"Not true latitude: %lf\n",latitude);
+            fprintf(stderr,"Not true latitude: %lf\n",latitude);//(output,text)
             return 2;
         }
         if ((longitude<-180.0)||(longitude>180))
